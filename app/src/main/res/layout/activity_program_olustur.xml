@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color_1"
+    tools:context=".ProgramOlustur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/bg_color_1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RadioGroup
+            android:id="@+id/rgCinsiyet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tvCinsiyet"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="Cinsiyet:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbKadin"
+
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Kadın" />
+
+            <RadioButton
+                android:id="@+id/rbErkek"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Erkek" />
+        </RadioGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/etYas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Yaş giriniz"
+            android:background="#F8F5F5"
+            android:backgroundTint="#F3F2F2"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:inputType="numberSigned"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/etBoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:background="#F8F5F5"
+            android:backgroundTint="#F3F2F2"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:hint="Boy giriniz"
+            android:inputType="number"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/etKilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:background="#F8F5F5"
+            android:backgroundTint="#F3F2F2"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:hint="Kilo Giriniz"
+            android:inputType="number"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RadioGroup
+            android:id="@+id/rgHedef"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvHedef"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hedef:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbHedefKiloAlma"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Kilo Alma" />
+
+            <RadioButton
+                android:id="@+id/rbHedefKiloVerme"
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:text="Kilo Verme" />
+
+            <RadioButton
+                android:id="@+id/rbHedefFitness"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Fitness" />
+        </RadioGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RadioGroup
+            android:id="@+id/rgZorluk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvZorluk"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Zorluk:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbZorlukKolay"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Kolay" />
+
+            <RadioButton
+                android:id="@+id/rbZorlukOrta"
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:text="Orta" />
+
+            <RadioButton
+                android:id="@+id/rbZorlukZor"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Zor" />
+        </RadioGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RadioGroup
+            android:id="@+id/rgBeslenme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvBeslenme"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Beslenme Türü:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbBeslenmeNormal"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Normal" />
+
+            <RadioButton
+                android:id="@+id/rbBeslenmeVejeteryan"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Vejeteryan" />
+        </RadioGroup>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/btnProgramiOlustur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFF50A"
+            android:text="Programınızı Oluşturun"
+            android:textColor="#000000" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

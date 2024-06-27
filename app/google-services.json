@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357401041827",
+    "project_id": "diyactivity-4d82c",
+    "storage_bucket": "diyactivity-4d82c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357401041827:android:9c9911fbc73e4fab529816",
+        "android_client_info": {
+          "package_name": "com.ya.diyactivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEBGMLO2LxvHnYo_7_IbWKRj9yYUFaQiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
